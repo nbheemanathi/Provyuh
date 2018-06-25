@@ -1,0 +1,22 @@
+{
+  "name": "provyuh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbheemanathi/Provyuh.git"
+  },
+  "author": "Nihar Bheemanathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbheemanathi/Provyuh/issues"
+  },
+  "homepage": "https://github.com/nbheemanathi/Provyuh#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
