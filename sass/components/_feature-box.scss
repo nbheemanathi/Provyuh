@@ -1,0 +1,13 @@
+.feature-box {
+    background-color: rgba($color: $color-white, $alpha: 0.8);
+    font-size: 1.5rem;
+     padding: 2.5rem;
+    //padding-bottom: 1rem;
+    text-align: center;
+    // width:30rem;
+
+    &__icon {
+        margin-bottom: 1rem;
+        display: inline-block;
+    }
+}

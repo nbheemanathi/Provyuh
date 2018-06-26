@@ -75,6 +75,11 @@ body {
   display: inline-block;
   letter-spacing: 1px; }
 
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
 .u-center-text {
   text-align: center; }
 
@@ -216,6 +221,15 @@ body {
     color: white;
     margin-bottom: 8rem; }
 
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center; }
+  .feature-box__icon {
+    margin-bottom: 1rem;
+    display: inline-block; }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/header-background-image.jpg");
@@ -265,4 +279,7 @@ body {
     width: calc( 3 * ((100% - 3 * (6rem)) / 4) + 2 * (6rem)); }
 
 .section-about {
+  padding: 5rem 0; }
+
+.section-features {
   padding: 5rem 0; }
