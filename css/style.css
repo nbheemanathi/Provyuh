@@ -266,7 +266,7 @@ body {
     .gallery__image-5 {
       background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/dashboard@1x.jpg"); }
     .gallery__image-6 {
-      background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/task@1x.jpg"); }
+      background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/Task@1x.jpg"); }
     .gallery__image-7 {
       background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/secure@1x.jpg"); }
   .gallery__heading {
