@@ -24,6 +24,10 @@
             background-color: $color-aqua;
         }
     }
+    &--white{
+        color: $color-black;
+        background-color: $color-white;
+    }
     
     &:hover {
         transform: translateY(-3px);
