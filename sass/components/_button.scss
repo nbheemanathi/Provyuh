@@ -14,7 +14,7 @@
         letter-spacing: .1rem;
 
         //change for the button elements
-        border: none;
+        // border: none;
         cursor: pointer;
     }    
 
@@ -29,6 +29,19 @@
     &--white{
         color: $color-black;
         background-color: $color-white;
+    }
+    &--outline{
+        
+        &-red{
+            color: $color-red-light-1;
+            border: .2rem  solid $color-red-light-1;
+        }
+    }
+    &--bold{
+        font-weight: 700 !important;
+    }
+    &--text-shadow{
+        text-shadow: 0 1rem 4rem rgba($color-black, 0.2);
     }
     
     &:hover {
@@ -60,7 +73,7 @@
     }
 
     &--animated {
-        animation: moveInbuttom 1s ease-out .75s;
+        animation: moveInbuttom .4s ease-out .5s;
         animation-fill-mode: backwards;
     }
     

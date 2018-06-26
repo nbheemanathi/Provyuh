@@ -1,0 +1,58 @@
+.gallery {
+    height: 30rem;
+    position: relative;
+    transition: all .3s ease;
+
+    &__image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        box-shadow: 0 1.15rem 4rem rgba($color: $color-black, $alpha: 0.15);
+        overflow: hidden;
+
+        &-1 {
+            background-image: linear-gradient(to right bottom, rgba(transparent, 0.4), rgba(transparent, 0.4)), url("../img/manage@1x.jpg");
+        }
+        &-2 {
+            background-image: linear-gradient(to right bottom, rgba(transparent, 0.4), rgba(transparent, 0.4)), url("../img/scheduler@1x.jpg");
+        }
+        &-3 {
+            background-image: linear-gradient(to right bottom, rgba(transparent, 0.4), rgba(transparent, 0.4)), url("../img/contact@1x.jpg");
+        }
+        &-4 {
+            background-image: linear-gradient(to right bottom, rgba(transparent, 0.4), rgba(transparent, 0.4)), url("../img/print@1x.jpg");
+        }
+        &-5 {
+            background-image: linear-gradient(to right bottom, rgba(transparent, 0.4), rgba(transparent, 0.4)), url("../img/dashboard@1x.jpg");
+        }
+        &-6 {
+            background-image: linear-gradient(to right bottom, rgba(transparent, 0.4), rgba(transparent, 0.4)), url("../img/task@1x.jpg");
+        }
+        &-7 {
+            background-image: linear-gradient(to right bottom, rgba(transparent, 0.4), rgba(transparent, 0.4)), url("../img/secure@1x.jpg");
+        }
+        
+    }
+
+    &__heading {
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $color-white;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+
+    &:hover{
+        transform: translateY(-.5rem);
+    }
+}
